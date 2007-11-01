@@ -1,7 +1,7 @@
 %define module  Set-Scalar
 %define name	perl-%{module}
-%define version 1.20
-%define release %mkrel 3
+%define version 1.22
+%define release %mkrel 1
 
 Name:		    %{name}
 Version:	    %{version}
@@ -10,10 +10,7 @@ Summary:	    Basic set operations
 License:	    GPL or Artistic
 Group:		    Development/Perl
 Url:		    http://search.cpan.org/dist/%{module}/
-Source:		    http://www.cpan.org/modules/by-module/Tree/%{module}-%{version}.tar.bz2
-%if %{mdkversion} < 1010
-BuildRequires:	perl-devel
-%endif
+Source:		    http://www.cpan.org/modules/by-module/Set/%{module}-%{version}.tar.gz
 BuildArch:	    noarch
 BuildRoot:	    %{_tmppath}/%{name}-%{version}
 
