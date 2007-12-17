@@ -12,7 +12,6 @@ Group:		    Development/Perl
 Url:		    http://search.cpan.org/dist/%{module}/
 Source:		    http://www.cpan.org/modules/by-module/Set/%{module}-%{version}.tar.gz
 BuildArch:	    noarch
-BuildRoot:	    %{_tmppath}/%{name}-%{version}
 
 %description
 Basic set operations.
