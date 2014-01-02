@@ -1,2 +1,4 @@
+removed_sources:
+  Set-Scalar-1.25.tar.gz: 497b5fe9b30ed6a0bff4e459ce9fb3913bf3a917
 sources:
-  "Set-Scalar-1.25.tar.gz": 497b5fe9b30ed6a0bff4e459ce9fb3913bf3a917
+  Set-Scalar-1.26.tar.gz: a35b4501a2e884898aa635f3d74ab157695f1c15
