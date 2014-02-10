@@ -1,5 +1,5 @@
 %define modname	Set-Scalar
-%define modver 1.26
+%define modver 1.27
 
 Summary:	Basic set operations
 Name:		perl-%{modname}
@@ -32,5 +32,6 @@ make test
 %doc ChangeLog README
 %{perl_vendorlib}/Set
 %{_mandir}/man3/*
+
 
 
