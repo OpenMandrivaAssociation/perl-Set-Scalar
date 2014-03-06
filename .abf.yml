@@ -1,5 +1,6 @@
 removed_sources:
   Set-Scalar-1.25.tar.gz: 497b5fe9b30ed6a0bff4e459ce9fb3913bf3a917
   Set-Scalar-1.26.tar.gz: a35b4501a2e884898aa635f3d74ab157695f1c15
-sources:
   Set-Scalar-1.27.tar.gz: cb4168f0eb4a9e08e2ae4487f3573f0621866caf
+sources:
+  Set-Scalar-1.28.tar.gz: 24ef8d681b1ee816513a63d9166a19c9cc7f340a

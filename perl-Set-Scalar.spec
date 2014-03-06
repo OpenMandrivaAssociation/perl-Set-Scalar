@@ -1,5 +1,5 @@
 %define modname	Set-Scalar
-%define modver 1.27
+%define modver 1.28
 
 Summary:	Basic set operations
 Name:		perl-%{modname}
@@ -8,7 +8,7 @@ Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}/
-Source0:	http://www.cpan.org/modules/by-module/Set/Set-Scalar-%{modver}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Set/%{modname}-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl-devel
 
@@ -32,6 +32,7 @@ make test
 %doc ChangeLog README
 %{perl_vendorlib}/Set
 %{_mandir}/man3/*
+
 
 
 
