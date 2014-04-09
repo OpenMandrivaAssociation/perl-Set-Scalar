@@ -1,7 +1,8 @@
 %define modname	Set-Scalar
-%define modver 1.28
+%define modver 1.29
 
 Summary:	Basic set operations
+
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
 Release:	1
@@ -32,6 +33,7 @@ make test
 %doc ChangeLog README
 %{perl_vendorlib}/Set
 %{_mandir}/man3/*
+
 
 
 
