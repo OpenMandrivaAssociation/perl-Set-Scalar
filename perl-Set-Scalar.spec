@@ -4,12 +4,12 @@
 Summary:	Basic set operations
 
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
-Release:	8
+Version:	%{modver}
+Release:	9
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{modname}/
-Source0:	http://www.cpan.org/modules/by-module/Set/%{modname}-%{modver}.tar.gz
+Url:		https://github.com/daoswald/Set-Scalar
+Source0:	https://cpan.metacpan.org/authors/id/D/DA/DAVIDO/Set-Scalar-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	make
 BuildRequires:	perl-devel
